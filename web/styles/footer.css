@@ -1,0 +1,9 @@
+#footer { background:#fff;}
+#footer-inner { margin:auto; text-align:center; padding:12px; width:922px;}
+#footer a {color:#9B1C27;text-decoration:none;}
+
+.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px}
+
+#footerblurb { background:#DAE9BC;color:#9B1C27;}
+#footerblurb-inner { margin:0 auto; width:922px; padding:24px;}
+#footerblurb .column { margin:0; text-align:justify; float:left;width:250px;padding:0 24px;}

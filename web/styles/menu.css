@@ -1,0 +1,111 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background: rgba(255, 255, 255, 1);
+    font-family: Helvetica, sans-serif;
+    height: 100%;
+}
+
+.main-menu {
+    margin: auto;
+    width: 960px;
+    text-align: center;
+    position: relative;
+    list-style-type: none;
+    margin-top: 2em;
+}
+
+.main-menu::after,
+.main-menu-item.active::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+}
+
+.main-menu::after {
+    width: 70%;
+    height: 2px;
+    background: #9B1C27;
+    -webkit-animation: menuLine 1s ease forwards;
+    animation: menuLine 1s ease forwards;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0;
+}
+
+@-webkit-keyframes menuLine {
+    to {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+
+@keyframes menuLine {
+    to {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes menuItem {
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes menuItem {
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.main-menu-item a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: #555;
+    opacity: 0;
+    -webkit-transform: translateY(40%);
+    -ms-transform: translateY(40%);
+    transform: translateY(40%);
+    -webkit-animation: menuItem .8s ease forwards;
+    animation: menuItem .8s ease forwards;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.main-menu-item:nth-child(4) a {
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s;
+}
+.main-menu-item:nth-child(3) a, .main-menu-item:nth-child(5) a {
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s;
+}
+.main-menu-item:nth-child(2) a, .main-menu-item:nth-child(6) a {
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s;
+}
+.main-menu-item:nth-child(1) a, .main-menu-item:nth-child(7) a {
+    -webkit-animation-delay: .7s;
+    animation-delay: .7s;
+}
+
+.main-menu-item {
+    display: inline-block;
+    position: relative;
+}
+.main-menu-item:hover a, .main-menu-item.active {
+    color: #9B1C27;
+}

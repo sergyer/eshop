@@ -1,0 +1,31 @@
+.bg {
+    background-image: url("../images/header.jpg");
+    background-color: #cccccc;
+    background-repeat:inherit;
+    height: 280px;
+
+}
+
+body{
+    background-color: #1B1B2B;
+}
+
+.descrip{
+    text-align: justify;
+    text-justify: inter-word;
+    width:350px;
+
+}
+
+.name1{
+    text-align: justify;
+    vertical-align: top;
+}
+
+.myproducts tr{
+    display: table-cell;
+    height:350px;
+    width: 300px;
+    padding-left: 25px;
+
+}

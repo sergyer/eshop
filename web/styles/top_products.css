@@ -1,0 +1,44 @@
+.top_products {
+    height:350px;
+    width: 300px;
+
+}
+
+.top_products li{
+    display: inline;
+}
+
+.table {
+
+    border-style: hidden;
+
+}
+
+.table1 {
+
+    border-collapse: separate;
+    border-spacing: 35px;
+    position: relative;
+
+}
+
+.table th{
+    height: 20px;
+
+
+}
+
+.quantity_box{
+    width: 30px;
+
+}
+
+.total{
+    padding-left: 800px;
+}
+
+.continue{
+    padding-right: 50px;
+    padding-top: 37px;
+}
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>Registration</servlet-name>
+        <servlet-class>Registration</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Registration</servlet-name>
+        <url-pattern>/Registration</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ShowCart</servlet-name>
+        <servlet-class>ShowCart</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowCart</servlet-name>
+        <url-pattern>/Showcart</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UpdateCart</servlet-name>
+        <servlet-class>UpdateCart</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateCart</servlet-name>
+        <url-pattern>/UpdateCart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RemoveCart</servlet-name>
+        <servlet-class>RemoveCart</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RemoveCart</servlet-name>
+        <url-pattern>/RemoveCart</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,7 @@
+<Context path="/eshop">
+    <Resource name="jdbc/eshop" type="javax.sql.DataSource" auth="Container"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/eshop" username="root" password="root"
+              logAbandoned="true" removeAbandoned="true" removeAbondonedTimeout="60"
+    />
+</Context>

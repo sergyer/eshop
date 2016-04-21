@@ -1,0 +1,22 @@
+
+
+
+.submit {
+    padding:5px 15px;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 500px;
+    border-radius: 5px;
+
+}
+.remove {
+    padding:5px 15px;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 500px;
+    border-radius: 5px;
+
+
+}

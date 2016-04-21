@@ -1,0 +1,27 @@
+JACKET "REAL ONE"
+
+This is a hood jacket created out of a junction of leather plunge and neoprene. It has eco-leather striped inserts on shoulders, sleeves and hood and it is finished with dense iconic detailing such as the hand-applied Plein studs sleeve applique. Enjoy yours with bold straight cut and ritzy high top sneakers to finish your total look. 
+
+2775
+
+
+
+
+<ul class="top_products">
+      <li><img src="<%= dbProduct.selectProduct("1").getImageURL()%>">
+         </li>
+      <li>
+        <img src="<%= dbProduct.selectProduct("2").getImageURL()%>">
+      </li>
+      <li>
+        <img src="<%= dbProduct.selectProduct("3").getImageURL()%>">
+      </li>
+      <li>
+        <img src="<%= dbProduct.selectProduct("4").getImageURL()%>">
+      </li>
+    </ul>
+  </div>
+  <div>
+    <ul class="top_products">
+      <li><%=dbProduct.selectProduct("1").g %></li>
+    </ul>
