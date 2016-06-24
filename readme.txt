@@ -1,3 +1,1 @@
-Hello, Git
-Updating with new information
-Committing from an alternate location
+E-shop web application, which demonstrates usage of JSP, SERVLETS, and JDBC connection.
